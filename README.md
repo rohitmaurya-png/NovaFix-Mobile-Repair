@@ -41,7 +41,7 @@ NovaFix is a fictional start-up offering on-site smartphone and laptop repairs w
 - **React 18** – For interactive components and state management.
 - **Tailwind CSS 3** – Utility-first styling for responsive and dark-mode design.
 - **Framer Motion** – Animations for counters and scroll effects.
-- **Shadcn/UI** – Minimal usage for accessible modal implementation.
+- **Eldora/UI** – Minimal usage for accessible modal implementation.
 - **Vercel** – Hosting and continuous deployment.
 
 ---
