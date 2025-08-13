@@ -4,8 +4,8 @@
 
 NovaFix is a fictional start-up offering on-site smartphone and laptop repairs within 60 minutes. This project is a **mobile-first, responsive, and accessible one-page site** built with **React + Next.js**, showcasing services, pricing, FAQs, and a booking modal.
 
-- Live demo: [Add your deployed link here]
-- GitHub repo: [Add your repo link here]
+- Live demo: https://nova-fix-mobile-repair-8srr32rd7.vercel.app/
+
 
 ---
 
