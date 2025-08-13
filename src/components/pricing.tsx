@@ -15,7 +15,7 @@ export function PricingTab(props: PricingTabProps) {
   const [isModalOpen, setIsModalOpen] = useState(false)
 
   return (
-    <div className="h-full">
+    <div className="h-full w-full">
       <div className="relative flex flex-col h-full p-6 rounded-2xl bg-black border border-white/30 shadow shadow-black/80">
         {props.popular && (
           <div className="absolute top-0 right-0 mr-6 -mt-4">
@@ -68,48 +68,48 @@ export function PricingTab(props: PricingTabProps) {
 
 export default function PricingTable() {
   return (
-    <div>
+    <div className="px-4">
       {/* Plans */}
-      <div className="max-w-sm mx-auto grid gap-6 lg:grid-cols-3 items-start lg:max-w-none">
+      <div className="grid gap-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-start">
         <PricingTab
-  planName="iPhone Repairs"
-  price={12000}
-  planDescription="Specialized iPhone screen and battery repairs."
-  features={[
-    'Screen Replacement – ₹12,000',
-    'Battery Replacement – ₹5,500',
-    'Diagnostic Check – Free',
-    'Software Update – Free',
-    'Water Damage Cleaning – ₹1,500',
-  ]}
-/>
+          planName="iPhone Repairs"
+          price={12000}
+          planDescription="Specialized iPhone screen and battery repairs."
+          features={[
+            'Screen Replacement – ₹12,000',
+            'Battery Replacement – ₹5,500',
+            'Diagnostic Check – Free',
+            'Software Update – Free',
+            'Water Damage Cleaning – ₹1,500',
+          ]}
+        />
 
-<PricingTab
-  popular
-  planName="Samsung Repairs"
-  price={10500}
-  planDescription="Expert Samsung phone servicing."
-  features={[
-    'Screen Replacement – ₹10,500',
-    'Battery Replacement – ₹4,800',
-    'Diagnostic Check – Free',
-    'Camera Repair – ₹3,000',
-    'Software Optimization – Free',
-  ]}
-/>
+        <PricingTab
+          popular
+          planName="Samsung Repairs"
+          price={10500}
+          planDescription="Expert Samsung phone servicing."
+          features={[
+            'Screen Replacement – ₹10,500',
+            'Battery Replacement – ₹4,800',
+            'Diagnostic Check – Free',
+            'Camera Repair – ₹3,000',
+            'Software Optimization – Free',
+          ]}
+        />
 
-<PricingTab
-  planName="Multi-Brand Repairs"
-  price={9500}
-  planDescription="Repairs for all major smartphone brands."
-  features={[
-    'Water Damage Repair – from ₹3,500',
-    'Charging Port Replacement – from ₹2,000',
-    'Screen Calibration – ₹2,500',
-    'Battery Health Check – Free',
-    'Accessory Installation – ₹500',
-  ]}
-/>
+        <PricingTab
+          planName="Multi-Brand Repairs"
+          price={9500}
+          planDescription="Repairs for all major smartphone brands."
+          features={[
+            'Water Damage Repair – from ₹3,500',
+            'Charging Port Replacement – from ₹2,000',
+            'Screen Calibration – ₹2,500',
+            'Battery Health Check – Free',
+            'Accessory Installation – ₹500',
+          ]}
+        />
       </div>
     </div>
   )
