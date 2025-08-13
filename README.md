@@ -1,70 +1,46 @@
-<div align="center">
-  <a href="https://github.com/karthikmudunuri/eldoraui">
+# NovaFix – One-Page Marketing Site
 
- <img src="https://github.com/user-attachments/assets/54c559b8-0dd1-4ef8-a3d0-06f5086224b0" alt="Logo" width="60" height="60">
-  </a>
-  <h1 align="center">Eldora UI</h1>
-  <p align="center">
-   open-source animated components built with React, Typescript, Tailwind CSS, and Framer Motion.
-100% open-source, and customizable.
-  </p>
-  <p>
-    
-   <a href="https://www.eldoraui.site/">Visit site</a>
-    ·
-    <a href="https://github.com/karthikmudunuri/eldoraui/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/karthikmudunuri/eldoraui/issues">Request Feature</a>
-  </p>
-</div>
+## Overview
+NovaFix is a fictional start-up offering on-site smartphone and laptop repairs within 60 minutes. This project is a **mobile-first, responsive, and accessible one-page site** built with **React + Next.js**, showcasing services, pricing, FAQs, and a booking modal.
 
-<!-- ABOUT THE TEMPLATE -->
+Live demo: [Add your deployed link here]  
+GitHub repo: [Add your repo link here]
 
-<div align="center mt-5">
+---
 
- <img width="1420" alt="saas-landing" src="https://github.com/user-attachments/assets/fcaf6b8d-004b-41d5-a1f8-8b609d626950">
+## Features
 
- 
-</div>
+### 1. Landing Page
+- **Hero Section:** Tagline with CTA button.
+- **Service Highlights:** Three main services – Screen Repair, Battery Replacement, Water Damage.
+- **Pricing Table:** At least two devices with common issues and prices.
+- **FAQ Accordion:** Four interactive FAQ items.
+- **Book Repair Modal:** Button opens a modal form for lead capture.
 
-# Saas Landing Page
+### 2. Interaction / UX Flourish
+- **Animated Counter:** Smooth count-up animation for “Devices Fixed” using Framer Motion.
+- **Hover Effects:** Subtle glow and shadow on service and pricing cards.
+- **Scroll Fade:** Sections animate in on scroll for a polished, modern feel.
 
-Template for saas landing page with dark theme using Next.js 14, React, TailwindCSS, Framer motion
+### 3. Performance & Accessibility
+- Optimized images in **WebP/AVIF** formats.
+- Dark-mode friendly design.
+- Semantic HTML and proper `alt` attributes for all images.
+- Focus trapping implemented in modal for keyboard accessibility.
+- Performance optimized to load < 8s on mobile 4G.
 
-# Features
+---
 
-- Built using Next.js 14, React, Typescript, Shadcn/UI, TailwindCSS, Framer Motion, Eldora UI
-- Responsive for different devices
-- Optimized for Next.js and Vercel
+## Tech Stack
 
-# Getting Started Locally
+- **Next.js 14** – React framework with server-side rendering and performance optimizations.
+- **React 18** – For interactive components and state management.
+- **Tailwind CSS 3** – Utility-first styling for responsive and dark-mode design.
+- **Framer Motion** – Animations for counters and scroll effects.
+- **Shadcn/UI** – Minimal usage for accessible modal implementation.
+- **Vercel** – Hosting and continuous deployment.
 
-1. Clone this repository to your local machine:
+---
 
-   ```bash
-   git clone https://github.com/karthikmudunuri/portfolio-template
-   ```
+## Project Structure
 
-2. Move to the cloned directory
-
-   ```bash
-   cd portfolio-template
-   ```
-
-3. Install dependencies:
-
-   ```bash
-   npm install
-   ```
-
-4. Start the local Server:
-
-   ```bash
-   npm run dev
-   ```
-
-5. Open the [Components](https://github.com/karthikmudunuri/saas-landing-page-template/tree/main/src/components) folder and make changes
-
-# License
-
-Licensed under the [MIT license](https://github.com/karthikmudunuri/saas-landing-page-template/blob/main/LICENSE.md).
