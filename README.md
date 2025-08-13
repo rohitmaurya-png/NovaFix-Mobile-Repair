@@ -47,4 +47,26 @@ NovaFix is a fictional start-up offering on-site smartphone and laptop repairs w
 ---
 
 ## Project Structure
+/components
+├── PricingTab.tsx
+├── ServiceCard.tsx
+├── FAQAccordion.tsx
+└── RepairFormModal.tsx
+/pages
+└── index.tsx
+/public
+└── assets/images
+/styles
+└── globals.css
+.eslintrc.json
+.gitignore
+LICENSE
+README.md
+next-env.d.ts
+next.config.mjs
+package-lock.json
+package.json
+postcss.config.mjs
+tailwind.config.ts
+tsconfig.json
 
