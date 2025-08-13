@@ -75,9 +75,19 @@ tsconfig.json
 2. **Performance:** Images optimized to WebP/AVIF. Framer Motion animations kept lightweight. Lazy loading used where applicable.
 3. **Accessibility:** Semantic HTML, alt texts, keyboard focus on modals, and proper color contrast.
 4. **Trade-offs:** Used minimal external libraries to avoid bloat. Modal and accordion implemented from scratch with some help from Shadcn/UI.
-5. **Future Improvements:**
-   - Integrate serverless backend for real-time booking submission.
-   - Add localization (i18n) for multi-language support.
+5. ## Future Improvements & UI Enhancements
+
+- **Integrate serverless backend:** Handle real-time booking submissions securely.  
+- **Localization (i18n):** Support multiple languages.  
+- **Dynamic Pricing:** Fetch prices from a backend API.  
+- **Progressive Web App (PWA):** Offline support and faster mobile experience.  
+
+### UI & UX Enhancements
+- Subtle animations on hero section and CTA buttons.  
+- Card hover effects with gradient overlays and shadows.  
+- Smooth scroll with section fade-ins.  
+- Interactive FAQ accordion with animated expand/collapse.  
+- Animated counters for metrics like “Devices Fixed”. 
 
 ---
 
