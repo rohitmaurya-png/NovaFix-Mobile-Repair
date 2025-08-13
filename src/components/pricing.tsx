@@ -68,7 +68,7 @@ export function PricingTab(props: PricingTabProps) {
 
 export default function PricingTable() {
   return (
-    <div className="px-4">
+    <div className="px-4 sm:px-6">
       {/* Plans */}
       <div className="grid gap-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-start">
         <PricingTab
