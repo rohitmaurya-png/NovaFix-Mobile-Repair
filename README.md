@@ -69,4 +69,27 @@ package.json
 postcss.config.mjs
 tailwind.config.ts
 tsconfig.json
+## Approach & Decisions
+
+1. **Mobile-first design:** All layouts were designed for mobile first, using Tailwind responsive utilities.
+2. **Performance:** Images optimized to WebP/AVIF. Framer Motion animations kept lightweight. Lazy loading used where applicable.
+3. **Accessibility:** Semantic HTML, alt texts, keyboard focus on modals, and proper color contrast.
+4. **Trade-offs:** Used minimal external libraries to avoid bloat. Modal and accordion implemented from scratch with some help from Shadcn/UI.
+5. **Future Improvements:**
+   - Integrate serverless backend for real-time booking submission.
+   - Add localization (i18n) for multi-language support.
+
+---
+
+## How AI Tools Were Used
+
+- **ChatGPT:** Generated component structure ideas, Tailwind CSS class suggestions, and animation patterns.
+- **Image Generators:** Created placeholder icons for services.
+- **GitHub Copilot:** Assisted with repetitive code patterns like mapping features and generating FAQ items.
+
+---
+
+## Deployment
+
+The site is deployed live at vercel
 
