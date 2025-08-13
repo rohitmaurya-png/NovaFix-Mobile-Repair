@@ -15,7 +15,7 @@ export function PricingTab(props: PricingTabProps) {
   const [isModalOpen, setIsModalOpen] = useState(false)
 
   return (
-    <div className="h-full w-full">
+    <div className="h-full w-full flex-1">
       <div className="relative flex flex-col h-full p-6 rounded-2xl bg-black border border-white/30 shadow shadow-black/80">
         {props.popular && (
           <div className="absolute top-0 right-0 mr-6 -mt-4">
@@ -68,9 +68,8 @@ export function PricingTab(props: PricingTabProps) {
 
 export default function PricingTable() {
   return (
-    <div className="px-4">
-      {/* Plans */}
-      <div className="grid gap-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-start">
+    <div className="px-4 py-8 bg-black">
+      <div className="flex flex-col md:flex-row gap-6 w-full max-w-7xl mx-auto">
         <PricingTab
           planName="iPhone Repairs"
           price={12000}
