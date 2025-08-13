@@ -1,16 +1,18 @@
 # NovaFix – One-Page Marketing Site
 
 ## Overview
+
 NovaFix is a fictional start-up offering on-site smartphone and laptop repairs within 60 minutes. This project is a **mobile-first, responsive, and accessible one-page site** built with **React + Next.js**, showcasing services, pricing, FAQs, and a booking modal.
 
-Live demo: [Add your deployed link here]  
-GitHub repo: [Add your repo link here]
+- Live demo: [Add your deployed link here]
+- GitHub repo: [Add your repo link here]
 
 ---
 
 ## Features
 
 ### 1. Landing Page
+
 - **Hero Section:** Tagline with CTA button.
 - **Service Highlights:** Three main services – Screen Repair, Battery Replacement, Water Damage.
 - **Pricing Table:** At least two devices with common issues and prices.
@@ -18,12 +20,14 @@ GitHub repo: [Add your repo link here]
 - **Book Repair Modal:** Button opens a modal form for lead capture.
 
 ### 2. Interaction / UX Flourish
+
 - **Animated Counter:** Smooth count-up animation for “Devices Fixed” using Framer Motion.
 - **Hover Effects:** Subtle glow and shadow on service and pricing cards.
 - **Scroll Fade:** Sections animate in on scroll for a polished, modern feel.
 
 ### 3. Performance & Accessibility
-- Optimized images in **WebP/AVIF** formats.
+
+- Optimized images in **WebP/AVIF**(Large) PNG/JPG(Icons) formats.
 - Dark-mode friendly design.
 - Semantic HTML and proper `alt` attributes for all images.
 - Focus trapping implemented in modal for keyboard accessibility.
